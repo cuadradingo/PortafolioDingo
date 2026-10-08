@@ -31,12 +31,12 @@ const PROJECTS = [
     tags: ['React', 'Android', 'APIs', 'Sistemas Retail'],
     // Imágenes para la laptop (App administrativa)
     images: [
-      '/img/MENU_FASTO.PNG',
-      '/img/CONSULTOR.PNG',
-      '/img/HABLADORES.PNG',
-      '/img/EXISTENCIAS.PNG',
-      '/img/TASADIA.PNG',
-      '/img/CONSULTOR.PNG'
+      '/img/MENU_FASTO.png',
+      '/img/CONSULTOR.png',
+      '/img/HABLADORES.png',
+      '/img/EXISTENCIAS.png',
+      '/img/TASADIA.png',
+      '/img/CONSULTOR.png'
     ],
     // Video para el lector de pared (APK Kiosco)
     videoSrc: '/img/lector.mp4' 
