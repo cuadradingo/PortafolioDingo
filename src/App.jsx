@@ -31,15 +31,15 @@ const PROJECTS = [
     tags: ['React', 'Android', 'APIs', 'Sistemas Retail'],
     // Imágenes para la laptop (App administrativa)
     images: [
-      './public/img/MENU_FASTO.PNG',
-      './public/img/CONSULTOR.PNG',
-      './public/img/HABLADORES.PNG',
-      './public/img/EXISTENCIAS.PNG',
-      './public/img/TASADIA.PNG',
-      './public/img/CONSULTOR.PNG'
+      '/img/MENU_FASTO.PNG',
+      '/img/CONSULTOR.PNG',
+      '/img/HABLADORES.PNG',
+      '/img/EXISTENCIAS.PNG',
+      '/img/TASADIA.PNG',
+      '/img/CONSULTOR.PNG'
     ],
     // Video para el lector de pared (APK Kiosco)
-    videoSrc: './public/img/lector.mp4' 
+    videoSrc: '/img/lector.mp4' 
   },
   {
     id: 2,
@@ -47,10 +47,10 @@ const PROJECTS = [
     description: 'Aplicación web para gestionar personal y monitorear actividades en laboratorios. UI moderna y optimizada para la organización eficiente de áreas de trabajo y responsabilidades.',
     tags: ['Angular 17', 'Nest.js', 'TypeScript', 'HTML/CSS'],
     images: [
-      './public/img/notilab.PNG',
-      './public/img/1.PNG',
-      './public/img/2.PNG',
-      './public/img/3.PNG'
+      '/img/notilab.PNG',
+      '/img/1.PNG',
+      '/img/2.PNG',
+      '/img/3.PNG'
     ],
   },
   {
@@ -59,11 +59,11 @@ const PROJECTS = [
     description: 'Software de escritorio para automatizar la gestión remota de laboratorios (optimizando tiempos) y herramientas de seguridad para la detección de amenazas en dispositivos USB.',
     tags: ['Python', 'MySQL', 'Desktop App'],
     images: [
-      './public/img/gestlab.PNG',
-      './public/img/gestorlab.PNG',
-      './public/img/lab.PNG',
-      './public/img/labcleaner.PNG',
-      './public/img/labcleaner2.PNG'
+      '/img/gestlab.PNG',
+      '/img/gestorlab.PNG',
+      '/img/lab.PNG',
+      '/img/labcleaner.PNG',
+      '/img/labcleaner2.PNG'
     ],
   },
   {
@@ -72,22 +72,22 @@ const PROJECTS = [
     description: 'Videojuego educativo diseñado para explorar interactivamente la historia local de Maracaibo. Diseño visual, mecánicas de NPCs, inventario y arte pixel art a medida.',
     tags: ['Unity', 'C#', 'Aseprite', 'Pixel Art'],
     images: [
-      './public/img/CC5.PNG',
-      './public/img/CC.PNG',
-      './public/img/CC2.PNG',
-      './public/img/CC3.PNG',
-      './public/img/CC4.PNG',
-      './public/img/CC6.PNG',
-      './public/img/CC7.PNG',
-      './public/img/CC8.PNG',
-      './public/img/CC9.PNG',
-      './public/img/CC10.PNG',
-      './public/img/CC11.PNG',
-      './public/img/CC12.PNG',
-      './public/img/CC13.PNG',
-      './public/img/CC14.PNG',
-      './public/img/CC15.PNG',
-      './public/img/CC16.PNG',
+      '/img/CC5.PNG',
+      '/img/CC.PNG',
+      '/img/CC2.PNG',
+      '/img/CC3.PNG',
+      '/img/CC4.PNG',
+      '/img/CC6.PNG',
+      '/img/CC7.PNG',
+      '/img/CC8.PNG',
+      '/img/CC9.PNG',
+      '/img/CC10.PNG',
+      '/img/CC11.PNG',
+      '/img/CC12.PNG',
+      '/img/CC13.PNG',
+      '/img/CC14.PNG',
+      '/img/CC15.PNG',
+      '/img/CC16.PNG',
 
     ],
   }
@@ -321,7 +321,7 @@ export default function Portfolio() {
               <div className="absolute top-10 left-10 w-32 h-32 bg-emerald-900/40 rounded-full blur-3xl z-0"></div>
 
               <img 
-                src="./public/img/DINGO.PNG" 
+                src="/img/DINGO.PNG" 
                 alt="Avatar Dingo" 
                 className="relative z-10 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 drop-shadow-2xl"
               />
